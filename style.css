@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* HEADER */
+header {
+    padding: 27px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgb(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#logo {
+    font-size: 44px;
+}
+
+.Nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    font-size: 24px;
+    padding-right: 24px;
+}
+
+.Nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+/* hero */
+#hero {
+    padding: 20px;
+    text-align: center;
+}
+
+#hero img {
+    width: 854px;
+    height: 533px;
+}
+
+#hero h2 {
+    font-size: 54px;
+}
+
+#hero p {
+    font-size: 28px;
+    margin-top: 21px;
+}
+
+#hero div {
+    width: fit-content;
+    margin: auto;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+/* ARTICLES */
+#articles {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 22px;
+}
+
+#articles h3 {
+    text-align: center;
+    font-size: 44px;
+    line-height: 3;
+}
+
+.card-grid {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 25px;
+}
+
+.card-grid p {
+    width: 300px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* FOOTER */
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer .services {
+    text-align: center;
+    padding: 20px;
+}
+
+footer .services span {
+    font-size: 28px;
+    padding: 0px 30px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.footer h3 {
+    font-size: 58px;
+}
+
+.footer p {
+    width: 415px;
+    margin: 25px auto;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.footer ul {
+    margin-top: 32px;
+}
+
+.footer li {
+    display: inline;
+    margin-left: 25px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.copyright {
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    line-height: 1.5;
+    ;
+}
